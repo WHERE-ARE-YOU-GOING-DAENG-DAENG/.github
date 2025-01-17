@@ -75,10 +75,7 @@
 
 ## 🩷 API 명세서
 <a href="https://www.notion.so/swgani/API-15839d11ffe78149a3e4ddff526b6e1f">**🔗 API 명세서 확인하기**</a>
-<br />
-<br />
-<img width="500" alt="api" src="https://github.com/user-attachments/assets/67441cdc-8ade-41a4-b37e-38ef933eb45e" />
-<img width="500" alt="api" src="https://github.com/user-attachments/assets/8e7553be-5587-4b68-811d-fe800968e00a" />
+
 
 
 
