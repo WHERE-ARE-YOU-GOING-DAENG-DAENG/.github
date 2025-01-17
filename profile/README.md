@@ -33,3 +33,52 @@
 | **FE**  | 지연우 | Figma 작업, 검색 & 시설 상세 & 즐겨찾기, 땅따먹기, 에러 퍼블리싱, 방문등록 & 실시간 리뷰, 구글 맵 API, FE 배포 & CI/CD|
 | **BE**  | 하진서| 반려동물 API, 선호도 API, 즐겨찾기 API, 스토리 API, 알림 목록 조회 API                                  |
 
+## 🩷 주요 기능 
+- **장소 검색**
+  -   반려동물 동반 가능 시설 목록 제공
+  -   사용자는 위치 & 키워드로 장소 검색 가능
+  -   사용자 맞춤 필터링 기능 제공
+
+- **장소 추천**
+  - **우리 댕댕이가 좋아할 것 같아요** : 선호장소타입과 현위치와의 거리차 등을 종합한 장소 3곳 추천
+  - **요즘 뜨는 장소 알려드려요** : 즐겨찾기 수가 많은 인기 장소 3곳 추천
+  - **댕댕어디가 추천 장소** : 유저의 실시간 위치 고려 및 별점 높은 장소 3곳 추천
+
+- **땅따먹기**
+  - 리뷰 등록을 일반 리뷰와 실시간 리뷰로 구분
+  - 실시간 리뷰 작성 시, 지역 시설을 가장 많이 방문한 유저가 그 지역의 땅을 획득
+  - 보상으로 땅 주인은 스토리 업로드 가능(땅 주인은 실시간으로 변경 가능) 
+
+## 🩷 Software Architecture
+<img width="1100" alt="SW Architecture" src="https://github.com/user-attachments/assets/74470a5f-9985-4344-b6ef-1e1bf66fb8ac" />
+
+## 🩷 프로젝트 설계
+
+- **AWS 1차**
+<img width="1100" alt="aws1" src="https://github.com/user-attachments/assets/143c4b39-a148-49f4-a16c-e372261aa82c" />
+
+
+- **AWS 2차**
+<img width="1100" alt="aws2" src="https://github.com/user-attachments/assets/803c4e95-2be0-4e74-a709-9137f6bfeb24" />
+
+## 🩷 ERD
+<a href="https://www.erdcloud.com/d/ZxgjWWypDkE9sGXf9">**🔗 ERD 확인하기**</a>
+<br />
+<br />
+<img width="1062" alt="erd" src="https://github.com/user-attachments/assets/2e855e37-15b6-4f93-8761-aff95cc9d898" />
+
+## 🩷 Figma
+<a href="https://www.figma.com/design/0cGW8rkHYLpa2Q2tDC7uSY/%EC%82%B0%EC%B1%85%EC%8B%9C%EC%BC%9C%EC%A1%B0?node-id=2142-228&t=TZzNLFFZLisTf3yL-1">**🔗 Figma 확인하기**</a>
+<br />
+<br />
+<img width="1048" alt="figma" src="https://github.com/user-attachments/assets/b3994d96-ecb2-4a4c-9bac-a62b2a482c55" />
+
+## 🩷 API 명세서
+<a href="https://www.notion.so/swgani/API-15839d11ffe78149a3e4ddff526b6e1f">**🔗 API 명세서 확인하기**</a>
+<br />
+<br />
+<img width="500" alt="api" src="https://github.com/user-attachments/assets/67441cdc-8ade-41a4-b37e-38ef933eb45e" />
+<img width="500" alt="api" src="https://github.com/user-attachments/assets/8e7553be-5587-4b68-811d-fe800968e00a" />
+
+
+
