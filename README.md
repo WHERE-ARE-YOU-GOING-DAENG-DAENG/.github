@@ -28,9 +28,9 @@
 |**BE** | 김가은 | AWS 서버 구성, 리뷰 시스템, 알림 시스템, 땅따먹기 시스템 |
 |**BE**  |  김승환| 장소 추천, aws 서버 & CI/CD, oauth & 쿠키 관리, 시큐리티 |
 | **BE** | 김지윤 | 메인페이지 장소 api, 장소 조회, 장소 검색, AI 리뷰 요약  
-| **FE**   | 박상희 | Figma 작업, 소셜 로그인, 회원정보 CRUD,선호도 등록&수정, 메인페이지&장소추천, 페스티벌 배너, 스토리 업로드 및 삭제   |
-| **FE**   | 송수빈 | Figma 작업, 반려동물 CRUD&마이페이지, 리뷰, How-to-guide 페이지 및 배너, 알림(FCM), Admin, 스토리 업로드 및 삭제 |
-| **FE**  | 지연우 | Figma 작업, 검색 & 시설 상세 & 즐겨찾기, 땅따먹기, 에러 퍼블리싱, 방문등록 & 실시간 리뷰, 구글 맵 API, FE 배포 & CI/CD|
+| **FE**   | 박상희 | 소셜 로그인, 회원정보 CRUD,선호도 등록&수정, 메인페이지&장소추천, 페스티벌 배너, 스토리 업로드 및 삭제   |
+| **FE**   | 송수빈 | 반려동물 CRUD&마이페이지, 리뷰, How-to-guide 페이지 및 배너, 알림(FCM), Admin, 스토리 업로드 및 삭제 |
+| **FE**  | 지연우 | 검색 & 시설 상세 & 즐겨찾기, 땅따먹기, 에러 퍼블리싱, 방문등록 & 실시간 리뷰, 구글 맵 API, FE 배포 & CI/CD|
 | **BE**  | 하진서| 반려동물 API, 선호도 API, 즐겨찾기 API, 스토리 API, 알림 목록 조회 API                                  |
 
 ## 🩷 주요 기능 
@@ -75,10 +75,121 @@
 
 ## 🩷 API 명세서
 <a href="https://www.notion.so/swgani/API-15839d11ffe78149a3e4ddff526b6e1f">**🔗 API 명세서 확인하기**</a>
-<br />
-<br />
-<img width="500" alt="api" src="https://github.com/user-attachments/assets/67441cdc-8ade-41a4-b37e-38ef933eb45e" />
-<img width="500" alt="api" src="https://github.com/user-attachments/assets/8e7553be-5587-4b68-811d-fe800968e00a" />
 
+
+## 🩷 프로젝트 폴더 구조
+
+### Frontend
+<details>
+  <summary><strong> ✨ 확인하기</strong> </summary>
+
+
+```plaintext
+daeng/
+├── .storybook            // Storybook 설정 및 파일
+├── node_modules          // Node.js 패키지
+├── public                // 정적 리소스
+│   ├── data/             // 정적 JSON 데이터
+│   │   └── sig.json.gz
+│   ├── alarm_logo.png    // 알람 로고 이미지
+│   ├── favicon.svg       // 파비콘 파일
+│   └── firebase-messaging-sw.js  // Firebase 메시징 스크립트
+├── src/
+  ├── components/      // UI 컴포넌트
+  │   └── commons/      // 공통 컴포넌트
+  ├── pages/           // 페이지 단위 컴포넌트
+  ├── firebase/        // 파이어베이스(FCM)
+  ├── hooks/           // 커스텀 훅
+  ├── stores/          // Zustand 스토어 파일
+  ├── utils/           // 유틸리티 함수
+  ├── data/            // 더미데이터
+  ├── routes/          // 라우트 관련
+  ├── stories/         // 스토리북 파일
+  ├── style/           // 스타일 관련 (CSS 등)
+  ├── services/        // API 요청 및 데이터 처리
+  └── assets/          // 이미지, 폰트 등 정적 리소스
+      └── icons/       // icon 파일
+```
+<br />
+</details>
+
+### Backend
+<details>
+  <summary><strong> ✨ 확인하기</strong> </summary>
+</details>
+
+## 🩷 구현 과정 및 성과
+
+### Frontend
+<details>
+  <summary><strong>📚 확인하기</strong> </summary>
+  
+---
+#### 1️⃣ Storybook
+- **UI 일관성 유지**: 스토리북을 활용해 컴포넌트 스타일 및 기능 테스트.
+- **컴포넌트 관리와 재사용성 향상**: 프로젝트 내에서 공통 UI를 효율적으로 관리.
+
+---
+
+#### 2️⃣ 지도 API 성능 개선
+- **실시간 위치 추적 정확도 개선**:
+  - 기존 `getCurrentPosition()` → 개선된 `watchPosition()`으로 변경.
+  - 실시간 위치 추적 시 정확도를 높임.
+- **시군구 경계 데이터 최적화**:
+  - 시군구 JSON 데이터를 `gzip`으로 압축.
+  - 압축 데이터를 사용하여 로딩 속도 개선.
+
+---
+
+#### 3️⃣ Debounce 적용
+- API 호출 시 서버 과부하를 방지하기 위해 **Debounce** 개념 도입.
+- VALUE 값 변경마다 API 호출 대신, 일정 시간 간격으로 호출 처리
+---
+</details>
+
+
+### Backend
+<details>
+  <summary><strong>📚 확인하기</strong> </summary>
+  
+---
+#### 1️⃣ Full-Text Search 
+- **Text Indexing**: 텍스트를 개별 단어(토큰)로 나눈 후 각 단어에 대한 색인을 생성
+- **검색 우선순위**: 일치하는 키워드는 우선순위로 표시 이후 생성된 색인으로 검색 후 결과 출력
+---
+#### 2️⃣ 리뷰 조회 - 동적 쿼리
+- **🧐 문제점**
+  - 최신순 , 평점 높은순, 평점 낮은순 으로 정렬
+  - 정렬 개수만큼 조회 쿼리가 필요
+  - 쿼리 수정이 필요할때마다 3개의 쿼리 수정 
+- **🥳 해결 방안**
+  - 검색 조건에 따라 실행 시점에서 쿼리를 생성하기 위해 동적쿼리 필요
+  <br/>
+  <table>
+    <th>Criteria</th>
+    <td> 쿼리가 복잡하여 생성될 쿼리를 파악하기 어려움</td>
+    <th>QueryDSL</th>
+    <td> 쉽고 간결하여 쿼리 파악하기 쉬움</td>
+  </table>
+---
+#### 3️⃣ 리뷰 조회 - 무한 스크롤
+- **Offset**
+  - 데이터가 많을 경우 뒤로갈 수록 조회 성능 저하
+  - count 쿼리 필요
+- **No Offset**
+  - 기준 Key가 중복된다면 중복된 결과를 전달
+  - 페이징 방식에서 적용 불가
+  - **92.3%** 개선
+---
+#### 4️⃣ 실시간 땅 유저 조회 
+- **🧐 문제점**
+  - 최신 땅 주인을 조회하기 위해 Region_owner_log 테이블을 매번 정렬해서 조회
+  - 실행 계획 분석 결과, Using Filesort 진행
+    
+- **🥳 해결 방안**
+  - [시/도,시군구읍,생성날짜]를 복합 인덱스 처리하여 인덱싱기반 조회
+  - Redis의 Set 자료형으로 최근 땅 주인을 캐싱
+---
+</details>
 
 
