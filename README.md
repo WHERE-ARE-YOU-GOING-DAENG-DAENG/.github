@@ -193,3 +193,176 @@ daeng/
 </details>
 
 
+## 🩷 유저 및 피드백
+
+### 📅 12월 10일에 1차 MVP 완성
+- 이후 **구글 광고 및 카페 홍보글 작성(강사모)** 진행 
+- **네이버 애널리틱스**로 유저 및 유입 경로 분석
+
+  
+#### 1월 10일
+
+<img width="1046" alt="광고 1차 실적" src="https://github.com/user-attachments/assets/1a46519f-5343-4c6f-9fb3-b81e412c8b60" />
+
+
+  
+#### 1월 15일
+<img width="1046" alt="광고 2차 실적" src="https://media.discordapp.net/attachments/1306901337052676191/1317513290288730253/image.png?ex=678e6b5e&is=678d19de&hm=f89635ff39dde5ee49e3363e0a4f4d5589ef6e360a09409347729feb173f56f0&=&format=webp&quality=lossless&width=2160&height=924" />
+
+## 🧐 네이버 애널리틱스 결과 및 서비스 설문조사 진행 결과 
+<a href="https://docs.google.com/spreadsheets/d/1_Q3rmGFtDyi9_AtYuU-3TUfE_O7vSs3KGXjmlwi5PtE/edit?usp=sharing"> **🔗 설문조사 결과** </a>
+<br />
+
+<img width="1211" alt="네이버 애널리틱스 결과 및 서비스 설문조사 " src="https://github.com/user-attachments/assets/914a01d4-880c-4367-9057-73e3193fd399" />
+
+> 유저들의 실제 피드백
+<img width="1046" alt="피드백 테이블 이미지" src="https://github.com/user-attachments/assets/9633673f-4df5-4c80-a539-28db387da16e" />
+
+## 🩷 유저들의 피드백 반영
+
+### 1️⃣ 검색어 자동완성 
+<img width="1024" alt="검색어" src="https://github.com/user-attachments/assets/627ca607-0f38-4df1-ada8-07cb285ee50a" />
+
+### 2️⃣ 이미지 Resizing
+<img width="1024" alt="Image Resizing" src="https://github.com/user-attachments/assets/606f6933-ac50-4a78-be55-d22900313ed7" />
+
+### 3️⃣ 지도
+<img width="1024" alt="지도" src="https://github.com/user-attachments/assets/11b15e75-d4e2-405e-982c-cbd02bf70df6" />
+
+## 🩷 기술 스택
+<h3>FrontEnd</h3>
+
+<table>
+  <tr>
+    <td><img width="100" src="https://camo.githubusercontent.com/5206020f736992bcb8c69db0378b675c6a0bc868c1d7d7bcb6605bfbbde8ad2b/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f68746d6c352d6f726967696e616c2d776f72646d61726b2e737667" alt="html"></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/jvLCZImVaQOR4o5hqrq8J7gVR-J4hwg8SJSwA0jenLQ/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1710061458/noticon/wcbbvx44ppavzhuptuwd.png?format=webp&quality=lossless&width=400&height=400" alt="styled-component"></td>
+    <td><img width="100" src="https://camo.githubusercontent.com/65e0cf3127cd71af7cf9e4da84a7370bbd445bb949ba9fbb06ee0d3dc7a634fb/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f6a6176617363726970742d6f726967696e616c2e737667" alt="js"></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/KBcTLO8mxeMn4SFQ_WBE3UJ7cOvUHvzmGkTHn08BZM8/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1679535484/noticon/arqfoi6i7gubuqkpigud.png?format=webp&quality=lossless&width=400&height=400" alt="vite"></td>
+    <td><img width="100" src="https://camo.githubusercontent.com/cc4e0bd91b89404a61e0f207ea47434aeb615edec6d4f6bcb7523680d64ea06b/68747470733a2f2f70726f66696c696e61746f722e7269736861762e6465762f736b696c6c732d6173736574732f72656163742d6f726967696e616c2d776f72646d61726b2e737667" alt="react"></td>
+  </tr>
+  <tr>
+    <th>HTML</th>
+    <th>Styled</th>
+    <th>JS</th>
+    <th>Vite</th>
+    <th>React</th>
+  </tr>
+  </table>
+  <table>
+   <tr>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1712215318/noticon/t0boj5btqesxnyxp4nfq.png" alt="gsap"></td>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913958/noticon/uoqjdixts4lwsgtsa1pd.png" alt="firebase"></td>
+  </tr>
+  <tr>
+    <th>Gsap</th>
+    <th>Firebase</th>
+  </tr>
+</table>
+
+<h3>BackEnd</h3>
+<table>
+  <tr>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/rVQuC6iv7sjbq3WpN6HIo25xoOGOED0_wFXDi5ItXWg/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1583139980/noticon/vtzecmjzn39cifnjtonx.png?format=webp&quality=lossless&width=400&height=400" alt="spring boot"></td>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1687307488/noticon/o9lxyva5z8zbwyeaxers.png" alt="JPA"></td>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1686935854/noticon/r7w1ipwmdmhlfzqfw69h.png" alt="security"></td>
+<td><img width="100" src="https://images-ext-1.discordapp.net/external/H14Nnyr7VzWus90kpcLNlQ83N_FG6qwdU7E0xQqAWKs/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913591/noticon/e2bd9zw78n6zw6his4bd.png?format=webp&quality=lossless&width=400&height=400" alt="mysql"></td>
+<td><img width="100" src="https://images-ext-1.discordapp.net/external/xPY0xedRgjP2QmgXUm_tyRmxGix6hZAf66AIXzESgZs/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1568175385/noticon/iodu1jssf0kwe4oie2dt.png?format=webp&quality=lossless&width=400&height=400" alt="docker"></td>
+  </tr>
+   <tr>
+    <th>Spring boot</th>
+    <th>JPA</th>
+    <th>Security</th>
+    <th>MySQL</th>
+    <th>Docker</th>
+   </tr>
+</table>
+<table>
+  <tr>
+<td><img width="100" src="https://images-ext-1.discordapp.net/external/0oYbouvj0yfZJrE2HcvnrLIi1XaRvzFTO0bTD5EE2YM/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566777755/noticon/yfmwxv8nhnr5aqaxhxpg.png?format=webp&quality=lossless&width=400&height=400" alt="aws"></td>
+<td><img width="100" src="https://images-ext-1.discordapp.net/external/r7AMXUsT0fZFCTBXVJbZuLOoNuKPVgyrwDzFqau4PXQ/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1567064876/noticon/sb5llmvfubuceldbkmx8.png?format=webp&quality=lossless&width=400&height=400" alt="s3"></td>
+<td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566913679/noticon/xlnsjihvjxllech0hawu.png" alt="redis"></td>
+<td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566798146/noticon/lku5cppzh8r7awwsmmko.png" alt="Nginx"></td>
+  </tr>
+   <tr>
+    <th>AWS</th>
+    <th>S3</th>
+    <th>Redis</th>
+    <th>Nginx</th>
+  </tr>
+</table>
+
+<h3>Test & CI/Cd</h3>
+<table>
+  <tr>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1627370220/noticon/qybtzgqcp92zlsqc1kj4.png" alt="JUnit5"></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/64gUc-2YomqC0USAGcDN2HYMb2Pb8VvLDBuaUleeit4/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1673248072/noticon/uj1sljza7nnsj0lpilwk.png?format=webp&quality=lossless&width=400&height=400" alt="github action"></td>
+     <td><img width="100" src="https://images-ext-1.discordapp.net/external/gBI7WFAgYgsCZ7FzEJ1tEAuhXNSEPvwTIv-82Q4gfEQ/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1679312641/noticon/rx8rni4npifrbo9ckxmt.png?format=webp&quality=lossless&width=400&height=400"alt="vercel"
+  </tr>
+  <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566778391/noticon/l0uiouhpeiq31huqu7ft.jpg" alt="Jenkins"></td>
+  <tr>
+    <th>Github action</th>
+    <th>Vercel</th>
+    <th>JUnit5</th>
+    <th>Jenkins</th>
+  </tr>
+</table>
+
+<h3>Communication</h3>
+<table>
+  <tr>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566899596/noticon/slhw4nu8hybreryigopq.png" alt="gitbug" /></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/xW2pjW1THv1Zdzo_NWk1EuIoL5j7hWHVK9LvG7pD_AA/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1640152045/noticon/albswwsjaaxvxbyhmwig.png?format=webp&quality=lossless&width=400&height=400" alt="discord"></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/azXealsvy6EBai5UV6z3mP0QOVcwPnKAxH5o7jhRs8Y/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1608448196/noticon/a0fgk99dgqtyrwwmqsbt.png?format=webp&quality=lossless&width=400&height=400" alt="figma"></td>
+    <td><img width="100" src="https://images-ext-1.discordapp.net/external/HmQy4lniRwIGodKeYCEnxF1dM_bLyuYJ41ju7zIQ6Mc/https/noticon-static.tammolo.com/dgggcrkxq/image/upload/v1633514562/noticon/jodwxqluutquo62s82de.png?format=webp&quality=lossless&width=400&height=400" alt="notion"></td>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566914615/noticon/pogcyufuizgdsl9m5u2w.jpg" alt="Jira"></td>
+    <td><img width="100" src="https://noticon-static.tammolo.com/dgggcrkxq/image/upload/v1566912512/noticon/jqqvnjhzhdwptlnp96p5.png" alt="google sheet"></td>
+      </tr>
+        <tr>
+          <th>Github</th>
+          <th>Discord </th>
+          <th>Figma</th>
+          <th>Notion</th>
+          <th>Jira </th>
+          <th>Google sheet</th>
+        </tr>
+  </table>
+
+## 🩷 Git convention
+
+### Frontend
+<details>
+  <summary><strong> ✨ 확인하기</strong> </summary>
+
+
+<br />
+
+```
+이모지 = :코드:
+```
+
+| 타입         | 이모지 | 코드             | 설명                                                           | 예시                                                  |
+| ------------ | ------ | ---------------- | -------------------------------------------------------------- | ----------------------------------------------------- |
+| **feat**     | ✨     | sparkles         | 새로운 기능을 추가할 때 사용합니다.                            | `✨ feat: 로그인 폼 유효성 검사 추가`                 |
+| **fix**      | 🐛     | bug              | 버그를 수정할 때 사용합니다.                                   | `🐛 fix: 로그인 버그 수정`                            |
+| **style**    | 💄     | lipstick         | 사용자 인터페이스 관련 변경 사항.                              | `💄 style: 네비게이션 바 디자인 수정`                 |
+| **refactor** | 🎨     | art              | 버그 수정이나 기능 추가 없이 코드 구조를 개선할 때 사용합니다. | `🎨 refactor: 컴포넌트 상태 관리 로직 단순화`         |
+| **perf**     | ⚡     | zap              | 성능을 개선하는 코드 변경.                                     | `⚡️ perf: 이미지 로딩 시간 최적화`                   |
+| **test**     | ✅     | white_check_mark | 테스트 코드를 추가하거나 수정할 때 사용합니다.                 | `✅ test: 버튼 컴포넌트에 대한 단위 테스트 추가`      |
+| **docs**     | 📝     | memo             | 문서만 변경할 때 사용합니다.                                   | `📝 docs: 설치 단계 README에 추가`                    |
+| **chore**    | 🔧     | wrench           | 소스나 테스트 파일을 수정하지 않는 일반적인 작업이나 업데이트. | `🔧 chore: 종속성 패키지 업데이트`                    |
+| **revert**   | ⏪     | rewind           | 이전 커밋을 되돌릴 때 사용합니다.                              | `⏪ revert: "로그인 폼 유효성 검사 추가" 커밋 되돌림` |
+| **init**     | 🎉     | tada             | 프로젝트 초기 설정 시 사용합니다.                              | `🎉 init: React 프로젝트 초기 설정`                   |
+| **delete**   | 🔥     | fire             | 코드/파일 삭제.                                                | `🔥 delete: 안 쓰는 로그인 컴포넌트 삭제`             |
+| **wip**      | 🚧     | construction     | 작업 중이거나 실험적인 변경 사항.                              | `🚧 wip: 새로운 인증 방법을 실험 중`                  |
+
+
+## 결과
+<img width="1000" alt="프론트엔드 깃 컨벤션" src="https://github.com/user-attachments/assets/188806f9-9c6f-48d8-bb7b-ec59426e0292" />
+
+<br />
+</details>
+
+### Backend
+<details>
+  <summary><strong> ✨ 확인하기</strong> </summary>
+</details>
