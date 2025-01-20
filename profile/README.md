@@ -210,6 +210,9 @@ daeng/
 <img width="1046" alt="광고 2차 실적" src="https://media.discordapp.net/attachments/1306901337052676191/1317513290288730253/image.png?ex=678e6b5e&is=678d19de&hm=f89635ff39dde5ee49e3363e0a4f4d5589ef6e360a09409347729feb173f56f0&=&format=webp&quality=lossless&width=2160&height=924" />
 
 ## 🧐 네이버 애널리틱스 결과 및 서비스 설문조사 진행 결과 
+<a href="https://docs.google.com/spreadsheets/d/1_Q3rmGFtDyi9_AtYuU-3TUfE_O7vSs3KGXjmlwi5PtE/edit?usp=sharing"> **🔗 설문조사 결과** </a>
+<br />
+
 <img width="1211" alt="네이버 애널리틱스 결과 및 서비스 설문조사 " src="https://github.com/user-attachments/assets/914a01d4-880c-4367-9057-73e3193fd399" />
 
 > 유저들의 실제 피드백
