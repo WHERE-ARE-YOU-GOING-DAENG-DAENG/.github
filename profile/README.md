@@ -193,3 +193,36 @@ daeng/
 </details>
 
 
+## 🩷 유저 및 피드백
+
+### 📅 12월 10일에 1차 MVP 완성
+- 이후 **구글 광고** 진행 (단순히 지인이 아닌 **실제 유저들** 사용 분석을 위함)
+- **네이버 애널리틱스**로 유저 및 유입 경로 분석
+
+  
+#### 1월 10일
+
+<img width="1046" alt="광고 1차 실적" src="https://github.com/user-attachments/assets/1a46519f-5343-4c6f-9fb3-b81e412c8b60" />
+
+
+  
+#### 1월 15일
+<img width="1046" alt="광고 2차 실적" src="https://media.discordapp.net/attachments/1306901337052676191/1317513290288730253/image.png?ex=678e6b5e&is=678d19de&hm=f89635ff39dde5ee49e3363e0a4f4d5589ef6e360a09409347729feb173f56f0&=&format=webp&quality=lossless&width=2160&height=924" />
+
+## 🧐 네이버 애널리틱스 결과 및 서비스 설문조사 진행 결과 
+<img width="1211" alt="네이버 애널리틱스 결과 및 서비스 설문조사 " src="https://github.com/user-attachments/assets/914a01d4-880c-4367-9057-73e3193fd399" />
+
+> 유저들의 실제 피드백
+<img width="1046" alt="피드백 테이블 이미지" src="https://github.com/user-attachments/assets/9633673f-4df5-4c80-a539-28db387da16e" />
+
+## 🩷 유저들의 피드백 반영
+
+### 1️⃣ 검색어 자동완성 
+<img width="1024" alt="검색어" src="https://github.com/user-attachments/assets/627ca607-0f38-4df1-ada8-07cb285ee50a" />
+
+### 2️⃣ 이미지 Resizing
+<img width="1024" alt="Image Resizing" src="https://github.com/user-attachments/assets/606f6933-ac50-4a78-be55-d22900313ed7" />
+
+### 3️⃣ 지도
+<img width="1024" alt="지도" src="https://github.com/user-attachments/assets/11b15e75-d4e2-405e-982c-cbd02bf70df6" />
+
